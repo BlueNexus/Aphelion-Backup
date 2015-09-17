@@ -35,26 +35,31 @@
 
 /obj/item/weapon/cartridge/engineering
 	name = "\improper Power-ON cartridge"
+	desc = "Usually found in an engineer's PDA."
 	icon_state = "cart-e"
 	access_engine = 1
 
 /obj/item/weapon/cartridge/atmos
 	name = "\improper BreatheDeep cartridge"
+	desc = "Doesn't actually help you breathe."
 	icon_state = "cart-a"
 	access_atmos = 1
 
 /obj/item/weapon/cartridge/medical
 	name = "\improper Med-U cartridge"
+	desc = "Perfect for when everyone's stolen the health analyzers."
 	icon_state = "cart-m"
 	access_medical = 1
 
 /obj/item/weapon/cartridge/chemistry
 	name = "\improper ChemWhiz cartridge"
+	desc = "Chemistry skill not included."
 	icon_state = "cart-chem"
 	access_reagent_scanner = 1
 
 /obj/item/weapon/cartridge/security
 	name = "\improper R.O.B.U.S.T. cartridge"
+	desc = "Used for setting beepsky to arrest. Forever."
 	icon_state = "cart-s"
 	access_security = 1
 
@@ -64,6 +69,7 @@
 
 /obj/item/weapon/cartridge/detective
 	name = "\improper D.E.T.E.C.T. cartridge"
+	desc = "You feel the urge to put on a longcoat and solve crime, just from holding it."
 	icon_state = "cart-s"
 	access_security = 1
 	access_medical = 1
@@ -77,17 +83,20 @@
 
 /obj/item/weapon/cartridge/lawyer
 	name = "\improper P.R.O.V.E. cartridge"
+	desc = "Serves as a wonderful paperweight."
 	icon_state = "cart-s"
 	access_security = 1
 
 /obj/item/weapon/cartridge/clown
 	name = "\improper Honkworks 5.0 cartridge"
+	desc = "Used for being an asshole."
 	icon_state = "cart-clown"
 	access_clown = 1
 	charges = 5
 
 /obj/item/weapon/cartridge/mime
 	name = "\improper Gestur-O 1000 cartridge"
+	desc = "Like the clowns', but with more stripes."
 	icon_state = "cart-mi"
 	access_mime = 1
 	charges = 5
@@ -130,11 +139,13 @@
 
 /obj/item/weapon/cartridge/head
 	name = "\improper Easy-Record DELUXE"
+	desc = "Used for putting rude messages on the status displays."
 	icon_state = "cart-h"
 	access_status_display = 1
 
 /obj/item/weapon/cartridge/hop
 	name = "\improper HumanResources9001 cartridge"
+	desc = "Used for intruding into people's private lives."
 	icon_state = "cart-h"
 	access_status_display = 1
 	access_quartermaster = 1
@@ -146,6 +157,7 @@
 
 /obj/item/weapon/cartridge/hos
 	name = "\improper R.O.B.U.S.T. DELUXE"
+	desc = "Even more robust than the standard model."
 	icon_state = "cart-hos"
 	access_status_display = 1
 	access_security = 1
@@ -156,6 +168,7 @@
 
 /obj/item/weapon/cartridge/ce
 	name = "\improper Power-On DELUXE"
+	desc = "Used to do engineering things. As to what that might be, you can only guess."
 	icon_state = "cart-ce"
 	access_status_display = 1
 	access_engine = 1
@@ -163,6 +176,7 @@
 
 /obj/item/weapon/cartridge/cmo
 	name = "\improper Med-U DELUXE"
+	desc = "Perfect for filling the status displays with 'SUIT SENSORS'."
 	icon_state = "cart-cmo"
 	access_status_display = 1
 	access_reagent_scanner = 1
@@ -170,6 +184,7 @@
 
 /obj/item/weapon/cartridge/rd
 	name = "\improper Signal Ace DELUXE"
+	desc = "DRUNK SCIEN- Used for researching things."
 	icon_state = "cart-rd"
 	access_status_display = 1
 	access_reagent_scanner = 1
@@ -194,6 +209,7 @@
 
 /obj/item/weapon/cartridge/syndicate
 	name = "\improper Detomatix cartridge"
+	desc = "For when spam just isn't enough."
 	icon_state = "cart"
 	access_remote_door = 1
 	access_detonate_pda = 1

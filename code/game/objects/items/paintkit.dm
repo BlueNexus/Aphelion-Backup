@@ -1,5 +1,6 @@
 /obj/item/device/kit
 	icon_state = "modkit"
+	desc = "A very generic looking modification kit."
 	icon = 'icons/obj/device.dmi'
 	var/new_name = "mech"    //What is the variant called?
 	var/new_desc = "A mech." //How is the new mech described?

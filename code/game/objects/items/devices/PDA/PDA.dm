@@ -68,35 +68,43 @@ var/global/list/obj/item/device/pda/PDAs = list()
 
 /obj/item/device/pda/medical
 	default_cartridge = /obj/item/weapon/cartridge/medical
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. Usually found on the doctor. Usually."
 	icon_state = "pda-m"
 
 /obj/item/device/pda/viro
 	default_cartridge = /obj/item/weapon/cartridge/medical
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. Absolutely useless for anything virology-related. Great for everything else,though."
 	icon_state = "pda-v"
 
 /obj/item/device/pda/engineering
 	default_cartridge = /obj/item/weapon/cartridge/engineering
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. It's stained with oil."
 	icon_state = "pda-e"
 
 /obj/item/device/pda/security
 	default_cartridge = /obj/item/weapon/cartridge/security
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. Used for recieving tip-offs."
 	icon_state = "pda-s"
 
 /obj/item/device/pda/detective
 	default_cartridge = /obj/item/weapon/cartridge/detective
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. Used for accusing people of murder."
 	icon_state = "pda-det"
 
 /obj/item/device/pda/warden
 	default_cartridge = /obj/item/weapon/cartridge/security
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. Perfect for spying on the crew- Ahem, monitoring the cameras."
 	icon_state = "pda-warden"
 
 /obj/item/device/pda/janitor
 	default_cartridge = /obj/item/weapon/cartridge/janitor
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. Used for yelling at people to stop ignoring signs."
 	icon_state = "pda-j"
 	ttone = "slip"
 
 /obj/item/device/pda/science
 	default_cartridge = /obj/item/weapon/cartridge/signal/science
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. Used for SCIENCE!"
 	icon_state = "pda-tox"
 	ttone = "boom"
 
@@ -109,6 +117,7 @@ var/global/list/obj/item/device/pda/PDAs = list()
 /obj/item/device/pda/mime
 	default_cartridge = /obj/item/weapon/cartridge/mime
 	icon_state = "pda-mime"
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. The mime's main method of communication."
 	message_silent = 1
 	news_silent = 1
 	ttone = "silence"
@@ -117,29 +126,36 @@ var/global/list/obj/item/device/pda/PDAs = list()
 /obj/item/device/pda/heads
 	default_cartridge = /obj/item/weapon/cartridge/head
 	icon_state = "pda-h"
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. Used for firing the clown."
 	news_silent = 1
 
 /obj/item/device/pda/heads/hop
 	default_cartridge = /obj/item/weapon/cartridge/hop
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. For all your record-scanning needs!"
 	icon_state = "pda-hop"
 
 /obj/item/device/pda/heads/hos
 	default_cartridge = /obj/item/weapon/cartridge/hos
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. Usually found on the most robust person on the station. Or whoever steals it first."
 	icon_state = "pda-hos"
 
 /obj/item/device/pda/heads/ce
 	default_cartridge = /obj/item/weapon/cartridge/ce
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. OH SHIT THE SM'S ON FIRE-"
 	icon_state = "pda-ce"
 
 /obj/item/device/pda/heads/cmo
 	default_cartridge = /obj/item/weapon/cartridge/cmo
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. Used for declaring people insane."
 	icon_state = "pda-cmo"
 
 /obj/item/device/pda/heads/rd
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. Even more sciency than the normal one."
 	default_cartridge = /obj/item/weapon/cartridge/rd
 	icon_state = "pda-rd"
 
 /obj/item/device/pda/captain
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. It's coated in a thin film of gold."
 	default_cartridge = /obj/item/weapon/cartridge/captain
 	icon_state = "pda-c"
 	detonate = 0
@@ -148,77 +164,92 @@ var/global/list/obj/item/device/pda/PDAs = list()
 /obj/item/device/pda/ert
 	default_cartridge = /obj/item/weapon/cartridge/captain
 	icon_state = "pda-h"
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. Perfect for when things start getting serious."
 	detonate = 0
 	hidden = 1
 
 /obj/item/device/pda/cargo
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. Used for ordering useless junk."
 	default_cartridge = /obj/item/weapon/cartridge/quartermaster
 	icon_state = "pda-cargo"
 
 /obj/item/device/pda/quartermaster
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. An essential tool for the self-respecting mulebot-rider."
 	default_cartridge = /obj/item/weapon/cartridge/quartermaster
 	icon_state = "pda-q"
 
 /obj/item/device/pda/shaftminer
 	icon_state = "pda-miner"
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. This model has been coated in a harder form of plastic, for extra durability."
 
 /obj/item/device/pda/syndicate
 	default_cartridge = /obj/item/weapon/cartridge/syndicate
 	icon_state = "pda-syn"
 	name = "Military PDA"
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. A serial number has hastily scrawled onto it - It's perfectly genuine."
 	owner = "John Doe"
 	hidden = 1
 
 /obj/item/device/pda/chaplain
 	icon_state = "pda-holy"
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. No, you can't message space jesus."
 	ttone = "holy"
 
 /obj/item/device/pda/lawyer
 	default_cartridge = /obj/item/weapon/cartridge/lawyer
 	icon_state = "pda-lawyer"
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. OBJECTION!"
 	ttone = "..."
 
 /obj/item/device/pda/botanist
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. Used for selling ambrosia on the black market."
 	//default_cartridge = /obj/item/weapon/cartridge/botanist
 	icon_state = "pda-hydro"
 
 /obj/item/device/pda/roboticist
 	icon_state = "pda-robot"
+	desc = "
 
 /obj/item/device/pda/librarian
 	icon_state = "pda-libb"
-	desc = "A portable microcomputer by Thinktronic Systems, LTD. This is model is a WGW-11 series e-reader."
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. This model is a WGW-11 series e-reader."
 	note = "Congratulations, your station has chosen the Thinktronic 5290 WGW-11 Series E-reader and Personal Data Assistant!"
 	message_silent = 1 //Quiet in the library!
 	news_silent = 0		// Librarian is above the law!  (That and alt job title is reporter)
 
 /obj/item/device/pda/clear
 	icon_state = "pda-transp"
-	desc = "A portable microcomputer by Thinktronic Systems, LTD. This is model is a special edition with a transparent case."
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. This model is a special edition with a transparent case."
 	note = "Congratulations, you have chosen the Thinktronic 5230 Personal Data Assistant Deluxe Special Max Turbo Limited Edition!"
 
 /obj/item/device/pda/chef
 	icon_state = "pda-chef"
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. You're never really going to use this, are you?"
 
 /obj/item/device/pda/bar
 	icon_state = "pda-bar"
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. This model is treated to be water/alcohol proof."
 
 /obj/item/device/pda/atmos
 	default_cartridge = /obj/item/weapon/cartridge/atmos
 	icon_state = "pda-atmo"
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. This model has an extra blue stripe down the side. Fancy."
 
 /obj/item/device/pda/chemist
 	default_cartridge = /obj/item/weapon/cartridge/chemistry
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. This model has a built-in reagent scanner."
 	icon_state = "pda-chem"
 
 /obj/item/device/pda/geneticist
 	default_cartridge = /obj/item/weapon/cartridge/medical
+	desc = "A portable microcomputer by Thinktronic Systems, LTD. How did you get this?"
 	icon_state = "pda-gene"
 
 
 // Special AI/pAI PDAs that cannot explode.
 /obj/item/device/pda/ai
 	icon_state = "NONE"
+	desc = "If you can see this, something is seriously wrong."
 	ttone = "data"
 	newstone = "news"
 	detonate = 0
@@ -303,6 +334,7 @@ var/global/list/obj/item/device/pda/PDAs = list()
 
 /obj/item/device/pda/ai/pai
 	ttone = "assist"
+	desc = "Usually found... inside a pAI."
 
 
 /*

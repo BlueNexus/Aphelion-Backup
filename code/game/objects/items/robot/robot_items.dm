@@ -7,6 +7,7 @@
 // Consider changing this to a child of the stun baton class. ~Z
 /obj/item/borg/stun
 	name = "electrified arm"
+	desc = "For when you absolutely need to become beepsky."
 	icon = 'icons/obj/decals.dmi'
 	icon_state = "shock"
 
@@ -49,17 +50,20 @@
 ***********************************************************************/
 /obj/item/borg/sight
 	icon = 'icons/obj/decals.dmi'
+	desc = "Borg eye things."
 	icon_state = "securearea"
 	var/sight_mode = null
 
 
 /obj/item/borg/sight/xray
 	name = "\proper x-ray vision"
+	desc = "Only cyborgs get cool x-ray vision."
 	sight_mode = BORGXRAY
 
 
 /obj/item/borg/sight/thermal
 	name = "\proper thermal vision"
+	desc = "Used for hunting down those worthless humans."
 	sight_mode = BORGTHERM
 	icon_state = "thermal"
 	icon = 'icons/obj/clothing/glasses.dmi'
@@ -67,23 +71,27 @@
 
 /obj/item/borg/sight/meson
 	name = "\proper meson vision"
+	desc = "Used for seeing everything with your magical robot powers."
 	sight_mode = BORGMESON
 	icon_state = "meson"
 	icon = 'icons/obj/clothing/glasses.dmi'
 
 /obj/item/borg/sight/material
 	name = "\proper material vision"
+	desc = "Used for.. What, exactly?"
 	sight_mode = BORGMATERIAL
 	icon_state = "material"
 	icon = 'icons/obj/clothing/glasses.dmi'
 
 /obj/item/borg/sight/hud
 	name = "hud"
+	desc = "A hud. It doesn't actually exist."
 	var/obj/item/clothing/glasses/hud/hud = null
 
 
 /obj/item/borg/sight/hud/med
 	name = "medical hud"
+	desc = "Used for being a better doctor than all the doctors."
 	icon_state = "healthhud"
 	icon = 'icons/obj/clothing/glasses.dmi'
 
@@ -95,6 +103,7 @@
 
 /obj/item/borg/sight/hud/sec
 	name = "security hud"
+	desc = "Perfect for being a glorified securitron."
 	icon_state = "securityhud"
 	icon = 'icons/obj/clothing/glasses.dmi'
 

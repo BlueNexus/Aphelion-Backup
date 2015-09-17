@@ -62,11 +62,13 @@
 	return -1
 
 /obj/item/device/radio/headset/syndicate
+	desc = "Nothing to see here. Move along, citizen."
 	origin_tech = "syndicate=3"
 	syndie = 1
 	ks1type = /obj/item/device/encryptionkey/syndicate
 
 /obj/item/device/radio/headset/binary
+	desc = "With the power of science, you can now hear binary."
 	origin_tech = "syndicate=3"
 	ks1type = /obj/item/device/encryptionkey/binary
 

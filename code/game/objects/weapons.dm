@@ -1,5 +1,6 @@
 /obj/item/weapon
 	name = "weapon"
+	desc = "A generic weapon. You shouldn't really be seeing this."
 	icon = 'icons/obj/weapons.dmi'
 	hitsound = "swing_hit"
 

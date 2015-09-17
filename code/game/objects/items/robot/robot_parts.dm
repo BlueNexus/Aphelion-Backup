@@ -1,5 +1,6 @@
 /obj/item/robot_parts
 	name = "robot parts"
+	desc = "What is this?"
 	icon = 'icons/obj/robot_parts.dmi'
 	item_state = "buildpipe"
 	icon_state = "blank"

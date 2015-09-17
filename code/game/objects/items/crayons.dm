@@ -1,35 +1,41 @@
 /obj/item/weapon/pen/crayon/red
 	icon_state = "crayonred"
+	desc = "It's a red crayon. At least, you hope it's meant to be red."
 	colour = "#DA0000"
 	shadeColour = "#810C0C"
 	colourName = "red"
 
 /obj/item/weapon/pen/crayon/orange
 	icon_state = "crayonorange"
+	desc = "It's an orange crayon. It rhymes with Blorenge, believe it or not."
 	colour = "#FF9300"
 	shadeColour = "#A55403"
 	colourName = "orange"
 
 /obj/item/weapon/pen/crayon/yellow
 	icon_state = "crayonyellow"
+	desc = "It's a yellow crayon."
 	colour = "#FFF200"
 	shadeColour = "#886422"
 	colourName = "yellow"
 
 /obj/item/weapon/pen/crayon/green
 	icon_state = "crayongreen"
+	desc = "It's a green crayon. Commonly found in an assistant's brain."
 	colour = "#A8E61D"
 	shadeColour = "#61840F"
 	colourName = "green"
 
 /obj/item/weapon/pen/crayon/blue
 	icon_state = "crayonblue"
+	desc = "It's a blue crayon."
 	colour = "#00B7EF"
 	shadeColour = "#0082A8"
 	colourName = "blue"
 
 /obj/item/weapon/pen/crayon/purple
 	icon_state = "crayonpurple"
+	desc = "It's a purple crayon. Fancy."
 	colour = "#DA00FF"
 	shadeColour = "#810CFF"
 	colourName = "purple"
@@ -55,6 +61,7 @@
 
 /obj/item/weapon/pen/crayon/rainbow
 	icon_state = "crayonrainbow"
+	desc = "You could make a beautiful picture with this, but you're probably going to make multicoloured graffiti instead."
 	colour = "#FFF000"
 	shadeColour = "#000FFF"
 	colourName = "rainbow"

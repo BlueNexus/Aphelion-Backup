@@ -4,6 +4,7 @@
 //Define all tape types in hazardtape.dm
 /obj/item/tapeproj
 	icon = 'icons/policetape.dmi'
+	desc = "It's a role of tape. How did you get this?"
 	icon_state = "rollstart"
 	w_class = 2.0
 	var/turf/start

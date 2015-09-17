@@ -1,5 +1,6 @@
 /obj/item/device/chameleon
 	name = "chameleon projector"
+	desc = "A strange device. Not actually a chameleon."
 	icon_state = "shield0"
 	flags = CONDUCT
 	slot_flags = SLOT_BELT

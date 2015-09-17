@@ -354,6 +354,7 @@ REAGENT SCANNER
 
 /obj/item/device/mass_spectrometer/adv
 	name = "advanced mass spectrometer"
+	desc = "Like the normal version, but more science-y"
 	icon_state = "adv_spectrometer"
 	details = 1
 	origin_tech = "magnets=4;biotech=2"
@@ -414,12 +415,14 @@ REAGENT SCANNER
 
 /obj/item/device/reagent_scanner/adv
 	name = "advanced reagent scanner"
+	desc = "Like the normal version, but more science-y"
 	icon_state = "adv_spectrometer"
 	details = 1
 	origin_tech = "magnets=4;biotech=2"
 
 /obj/item/device/slime_scanner
 	name = "slime scanner"
+	desc = "Used to scan slimes and store data on their characteristics."
 	icon_state = "adv_spectrometer"
 	item_state = "analyzer"
 	origin_tech = "biotech=1"
